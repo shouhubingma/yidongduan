@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+body,html{
+    width: 100%;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 0.14rem;
+    color: #000;
+    overflow-x: hidden;
+}
+.header{
+    height: 0.7rem;
+    background: red;
+}
+.header img{
+    width: 21%;
+    float: left;
+    margin-left: 0.2rem;
+}
+.header .zuo{
+    width: 3rem;
+    float: left;
+}
+.header .you{
+    width: 2.5rem;
+    float: right;
+}
+.header .you a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.25rem;
+}
+.header span{
+    color: white;
+    font-size: 0.3rem;
+    margin-left: 0.3rem;
+    line-height: 0.7rem;
+}
+.banner{
+    height: 6.4rem;
+    background: red;
+}
+.banner img{
+    width: 100%;
+}
+.banner_text {
+    height: 0.9rem;
+}
+.text_zuo{
+    width: 4.4rem;
+    float: left;
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding-left: 0.3rem;
+}
+.text_you{
+    width: 2rem;
+    float: right;
+    text-align: center;
+}
+.text_you ul li {
+    width: 1rem;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.text_you img{
+    width: 30%;
+}
+.jiage{
+    height: 1rem;
+    padding-left: 0.3rem;
+}
+.jiage .p1{
+    font-size: 0.5rem;
+    color: red;
+}
+.jiage span,del{
+    color: darkgray;
+    font-size: 0.28rem;
+}
+.xuanze {
+    height: 0.9rem;
+    line-height: 1rem;
+}
+.xuanze  .guige{
+    width: 4.4rem;
+    float: left;
+    font-size: 0.3rem;
+    padding-left: 0.3rem;
+}
+.xuanze  .xuanze_img {
+    width: 0.5rem;
+    float: right;
+}
+.xuanze  .xuanze_img img{
+    width: 30%;
+    margin-top: 0.3rem;
+    transform: rotate(180deg);
+}
+#qiehuan{
+    height: 5rem;
+}
+#qiehuan ul {
+    list-style: none;
+    width: 6rem;
+    height: 1rem;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid silver;
+}
+#qiehuan ul li {
+    width: 2.7rem;
+    float: left;
+    font-size: 0.36rem;
+    height: 0.8rem;
+    margin: 0.1rem;
+}
+
+
+
+#chanpinxiangqing{
+    height: 4rem;
+    margin-top: 0.2rem;
+    background: white;
+}
+#chanpinxiangqing .swiper-wrapper{
+    margin-left: -2rem;
+}
+#chanpinxiangqing .swiper-slide{
+    width:3rem;
+    height: 3rem;
+    margin: 0.3rem;
+    text-align: center;
+    border: 2px solid #e4e4e4;
+}
+#chanpinxiangqing h3{
+    font-size: 0.2rem;
+    height: 0.4rem;
+}
+
+#chanpinxiangqing .swiper-slide img{
+    width: 100%;
+}
+#chanpinxiangqing .swiper-slide h3{
+    border-bottom: 1px  dashed #000000;
+}
+#chanpinxiangqing .swiper-slide p{
+    width: 100%;
+    margin-top: 0.05rem;
+}
+#chanpinxiangqing .swiper-slide p .span1{
+    width:60%;
+    float: left;
+    font-size: 0.2rem;
+    color: red;
+}
+#chanpinxiangqing .swiper-slide p .span2{
+    width:20%;
+    float: right;
+}
+#chanpinxiangqing .swiper-slide p .span2 img{
+    width: 70%;
+}
+#chanpinxiangqing .swipet_text{
+    height: 0.6rem;
+    font-size: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+
+#chanpincanshu{
+    height: 4rem;
+    margin-top: 0.2rem;
+    background: white;
+}
+#chanpincanshu .hang{
+    height: 0.8rem;
+    margin: auto;
+    font-size: 0.3rem;
+    border: 1px solid #e3e3e3;
+    padding-left: 0.4rem;
+    line-height: 0.8rem;
+
+}
+#chanpincanshu .pinpai{
+    width: 2rem;
+    float: left;
+}
+#chanpincanshu .mingzi{
+    width: 3rem;
+    float: left;
+}
+.hide{
+    display: none
+}
+.show{
+    display: block;
+}
+#qiehuan  .on{ border-bottom: 1px solid red; z-index: 9999;}
+
+
+
+.fanhui{
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    z-index: 9999;
+}
+.fanhui ul{
+    list-style: none;
+    height: auto;
+    display: inline-block;
+}
+.fanhui ul li{
+    font-size: 0.25rem;
+    width: 1.28rem;
+    height: 0.88rem;
+    float: left;
+    border: 1px solid #e8e8e8;
+    /*border-collapse: collapse;*/
+    text-align: center;
+}
+.fanhui ul li img{
+    width: 40%;
+    padding-top: 0.2rem;
+}
+.fanhui ul li span a{
+    height: 0.32rem;
+    width: 1rem;
+    line-height: 0.9rem;
+    text-decoration: none;
+    color: #828282;
+}
+.fanhui ul .li2{
+    width: 1.92rem;
+}
+.fanhui  li:nth-child(3) a{
+    color: red;
+}
+.fanhui  li:nth-child(4){
+    background: red;
+}
+.fanhui  li:nth-child(4) a{
+    color: white;
+}
+

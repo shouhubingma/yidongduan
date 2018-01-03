@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+body,html{
+    width: 100%;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 0.14rem;
+    color: #000;
+    overflow-x: hidden;
+}
+.header{
+    height: 0.7rem;
+    background: #68c6de;
+}
+.header img{
+    width: 21%;
+    float: left;
+    margin-left: 0.2rem;
+}
+.header .zuo{
+    width: 3rem;
+    float: left;
+}
+.header .you{
+    width: 2.5rem;
+    float: right;
+}
+.header .you a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.25rem;
+}
+.header span{
+    color: white;
+    font-size: 0.3rem;
+    margin-left: 0.3rem;
+    line-height: 0.7rem;
+}
+
+
+form {
+    width: 6rem;
+    height: auto;
+    margin: 1rem auto;
+
+}
+form ul {
+    margin: 0;
+    padding: 0;
+
+}
+form ul li {
+    width: 6rem;
+    height: 1rem;
+    list-style: none;
+    font-size: 0.3rem;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-bottom: 0;
+    padding-left:0.3rem ;
+    padding-top: 0.1rem;
+}
+form ul li span{
+    float: left;
+    line-height: 0.8rem;
+}
+form ul li input{
+    height: 0.8rem;
+    border: none;
+}
+form ul li:nth-child(6){
+    border-bottom:1px solid darkgray;
+}
+form button{
+    width: 6rem;
+    height: 0.9rem;
+    background: #68c6de;
+    border: 0;
+    color: white;
+    font-size: 0.4rem;
+    margin-top: 0.8rem;
+}

@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+}
+body,html{
+    width: 100%;
+    font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif;
+    font-size: 0.14rem;
+    color: #000;
+    overflow-x: hidden;
+}
+.header_top {
+    height: 2rem;
+    background: -webkit-linear-gradient(0deg, #ff8314, #f23030);
+    text-align: center;
+}
+.header{
+    width: 2rem;
+    height: auto;
+    margin: auto;
+    padding-top: 0.2rem;
+
+}
+.header_top img{
+    width: 57%;
+    margin-top: 0.1rem;
+    margin-left: -0.1rem;
+}
+.header_banner {
+    height: 0.8rem;
+    text-align: center;
+    margin: 0.2rem auto;
+}
+.header_banner ul li{
+    width: 1rem;
+    height: 1rem;
+    list-style: none;
+    float: left;
+    margin-left: 0.8rem;
+    font-size: 0.25rem;
+
+}
+ a {
+     text-decoration: none;
+     color: #000;
+
+}
+.header_banner ul li img {
+    width: 40%;
+}
+.header_main{
+    height: auto;
+    background: #fbfbfb;
+}
+
+.header_sousuokuang form{
+    width: 6rem;
+    margin: 0.2rem auto;
+    font-size: 0.74rem;
+}
+.header_sousuokuang input{
+    width: 85%;
+    height: 0.7rem;
+    padding-left: 0.6rem;
+    border: none;
+}
+.header_sousuokuang input{
+    background: white url("../images/sousuo.png")no-repeat;
+    /*background: url("../images/sousuo.png")no-repeat;*/
+    background-position: left;
+}
+.header_sousuokuang button{
+    width: 15%;
+    height: 0.7rem;
+    background: #ff4444;
+    border: none;
+    color: white;
+}
+.main_fenlei{
+    width: 6rem;
+    height: 3.6rem;
+    margin: 0.2rem auto;
+    text-align: center;
+}
+.main_fenlei ul li {
+    width: 1rem;
+    height: 1rem;
+    float: left;
+    list-style: none;
+    margin: 0.25rem;
+}
+.main_fenlei ul li img{
+    width: 100%;
+    float: left;
+}
+.main_lunbo {
+    height: 3rem;
+}
+.main_lunbo img{
+    width: 100%;
+    height: 2.5rem;
+}
+
+.qianggou{
+    height: 0.8rem;
+    margin-top: 0.3rem;
+    border-bottom:1px solid red;
+}
+.qianggou_text {
+    width: 70%;
+    color: red;
+    font-size: 0.4rem;
+    border-left: 2px red solid;
+    padding-left: 0.3rem;
+    float: left;
+    font-weight: bold;
+}
+.qianggou_img{
+    width: 20%;
+    float: right;
+    transform: rotate(180deg);
+    margin-right: 0.2rem;
+}
+.remai{
+    height: 0.8rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-bottom:1px solid red;
+}
+.remai_text {
+    width: 70%;
+    color: red;
+    font-size: 0.4rem;
+    border-left: 2px red solid;
+    padding-left: 0.3rem;
+    float: left;
+    font-weight: bold;
+}
+.remai_img{
+    width: 20%;
+    float: right;
+    transform: rotate(180deg);
+    margin-right: 0.2rem;
+}
+
+
+
+.gundong{
+    height: 4rem;
+    margin-top: 0.2rem;
+    background: white;
+}
+.gundong .swiper-wrapper{
+    margin-left: -2rem;
+}
+.gundong .swiper-slide{
+    width:3rem;
+    height: 3rem;
+    margin: 0.3rem;
+    text-align: center;
+    border: 2px solid #e4e4e4;
+}
+.gundong h3{
+    font-size: 0.2rem;
+    height: 0.4rem;
+}
+
+.gundong .swiper-slide img{
+    width: 100%;
+}
+.gundong .swiper-slide h3{
+
+    margin-top: 0.05rem;
+    border-bottom: 1px  dashed #000000;
+}
+.gundong .swiper-slide p{
+    width: 100%;
+    margin-top: 0.05rem;
+}
+.gundong .swiper-slide p .span1{
+    width:60%;
+    float: left;
+    font-size: 0.2rem;
+    color: red;
+}
+.gundong .swiper-slide p .span2{
+    width:20%;
+    float: right;
+}
+.gundong .swiper-slide p .span2 img{
+    width: 70%;
+}
+.main_lunbo2 {
+    height: 3rem;
+}
+.main_lunbo2 img{
+    width: 100%;
+    height: 2.5rem;
+}
+.main_pubushi{
+    height: 19rem;
+    position: relative;
+}
+.pubu1{
+    width:2.9rem;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin-left: 0.2rem;
+    border: 1px solid #adadad;
+    padding: 0.1rem;
+    border-radius: 3%;
+    position: absolute;
+}
+.pubu2{
+    width: 2.9rem;
+    height: auto;
+    text-align: center;
+    float: left;
+    margin-right: 0.2rem;
+    margin-left: 0.1rem;
+    border: 1px solid #adadad;
+    padding: 0.1rem;
+    border-radius: 3%;
+    position: absolute;
+    top:0;
+    right: 0;
+
+}
+.pubu3{
+    top:4.1rem;
+    left: 0.1rem;
+}
+.pubu4{
+    top: 4.94rem;
+}
+.pubu5{
+    top: 9.05rem;
+    left: 0.1rem;
+}
+.pubu6{
+    top: 9.9rem;
+}
+.pubu7{
+    top: 14.01rem;
+    left: 0.1rem;
+}
+.pubu8{
+    top: 14.83rem;
+    right: 0.2rem;
+}
+.main_pubushi img{
+    width: 100%;
+}
+.main_pubushi p{
+    width: 100%;
+    font-size: 0.4rem;
+    text-align: left;
+    color: #ff7214;
+}
+.main_pubushi h3{
+    font-size: 0.2rem;
+    height: 0.4rem;
+}
+.main_pubushi  h3{
+    border-bottom:1px  dashed #000000;
+}
+.main_pubushi p img{
+    width: 15%;
+    float: right;
+    margin-top: 0.1rem;
+}
+.fuwu{
+    height: 4rem;
+    margin: 0.1rem;
+}
+.fuwu .xinshourumen img,.fuwu .jiaoyifangshi img,.fuwu .zhifufangshi img,.fuwu .shouhoufuwu img{
+    width: 0.8rem;
+    float: left;
+}
+.xinshourumen,.jiaoyifangshi,.zhifufangshi,.shouhoufuwu{
+    width: 2.9rem;
+    height: auto;
+    float: left;
+    margin: 0.1rem;
+    margin-top: 0.7rem;
+}
+.fuwu .rumen_text,.fuwu .jiaoyi_text,.fuwu .zhifu_text,.fuwu .shouhou_text{
+    width: 2rem;
+    float: right;
+    line-height: 0.4rem;
+}
+.footer{
+    height: 2.5rem;
+}
+.footer .footer_ul{
+    height: 0.6rem;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid darkgrey;
+}
+.footer_ul ul{
+    /*width: 73%;*/
+    display: inline-block;
+    height: auto;
+}
+.footer_ul ul li {
+    width: 1.5rem;
+    font-size: 0.30rem;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.footer_text{
+    font-size: 0.25rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.fanhui{
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    z-index: 9999;
+}
+.fanhui ul{
+    list-style: none;
+    height: auto;
+    display: inline-block;
+}
+.fanhui ul li{
+    font-size: 0.25rem;
+    width: 1.28rem;
+    height: 0.88rem;
+    float: left;
+    border: 1px solid #e8e8e8;
+    /*border-collapse: collapse;*/
+    text-align: center;
+}
+.fanhui ul li img{
+    width: 40%;
+    padding-top: 0.2rem;
+}
+.fanhui ul li span a{
+    height: 0.32rem;
+    width: 1rem;
+    line-height: 0.9rem;
+}
