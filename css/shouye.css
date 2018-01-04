@@ -91,6 +91,7 @@ body,html{
     float: left;
     list-style: none;
     margin: 0.25rem;
+    font-size: 0.2rem;
 }
 .main_fenlei ul li img{
     width: 100%;
